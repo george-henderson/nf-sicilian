@@ -79,7 +79,7 @@ checkPathParamList = [
     // params.multiqc_config,
     params.gtf
 ]
-for (param in checkPathParamList) { if (param) { file(param, checkIfExists: true) } }
+//for (param in checkPathParamList) { if (param) { file(param, checkIfExists: true) } }
 
 
 /*
