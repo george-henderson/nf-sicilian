@@ -90,7 +90,7 @@ for (param in checkPathParamList) { if (param) { file(param, checkIfExists: true
 //
 // Create channel for domain file
 //
-
+ch_domain = file(params.domain, checkIfExists: true)
 
 
 /*
